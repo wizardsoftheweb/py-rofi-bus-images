@@ -6,11 +6,11 @@ ENV LANG C.utf8
 RUN dnf -y install \
     dbus{,-x11} \
     gtk3 \
-    python3-pyflakes \
+    pyflakes \
     pygobject3 \
-    python3-pytest \
-    python3-gobject \
-    python3-pep8 \
+    python2-pytest \
+    python-gobject \
+    python-pep8 \
     which \
     xorg-x11-server-Xvfb
 
