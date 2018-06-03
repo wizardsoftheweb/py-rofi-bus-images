@@ -1,5 +1,5 @@
 FROM fedora:28
-# https://github.com/pygobject/pygobject-travis-ci-docker-examples/blob/master/.travis.yml
+# https://github.com/pygobject/pygobject-travis-ci-docker-examples/blob/master/Dockerfile.fedora25.py2
 
 ENV LANG C.utf8
 
