@@ -11,6 +11,7 @@ RUN dnf -y install \
     python3-pytest \
     python3-gobject \
     python3-pep8 \
+    python3-setuptools \
     which \
     xorg-x11-server-Xvfb
 
